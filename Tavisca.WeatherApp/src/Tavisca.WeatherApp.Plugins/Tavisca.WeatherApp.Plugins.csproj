@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SubModules\Tavisca.Common.Plugins.Configuration\Tavisca.Common.Plugins.Configuration.Core.csproj" />
+    <ProjectReference Include="..\SubModules\Tavisca.Platform.Common\Tavisca.Platform.Common.Core.csproj" />
+    <ProjectReference Include="..\Tavisca.WeatherApp.Model\Tavisca.WeatherApp.Model.csproj" />
+    <ProjectReference Include="..\Tavisca.WeatherApp.OpenWeatherAdaptor\Tavisca.WeatherApp.OpenWeatherAdapter.csproj" />
+  </ItemGroup>
+
+</Project>

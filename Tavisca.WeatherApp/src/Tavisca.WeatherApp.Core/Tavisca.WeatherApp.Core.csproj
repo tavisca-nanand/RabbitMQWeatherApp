@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tavisca.WeatherApp.Model\Tavisca.WeatherApp.Model.csproj" />
+    <ProjectReference Include="..\Tavisca.WeatherApp.Plugins\Tavisca.WeatherApp.Plugins.csproj" />
+  </ItemGroup>
+
+</Project>

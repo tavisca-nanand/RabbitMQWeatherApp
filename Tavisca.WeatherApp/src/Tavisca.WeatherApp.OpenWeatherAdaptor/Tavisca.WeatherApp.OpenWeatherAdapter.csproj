@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SubModules\Tavisca.Platform.Common.Models\Tavisca.Platform.Common.Models.Core.csproj" />
+    <ProjectReference Include="..\SubModules\Tavisca.Platform.Common\Tavisca.Platform.Common.Core.csproj" />
+    <ProjectReference Include="..\Tavisca.WeatherApp.Model\Tavisca.WeatherApp.Model.csproj" />
+  </ItemGroup>
+
+</Project>

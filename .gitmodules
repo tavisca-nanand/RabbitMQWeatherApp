@@ -1,0 +1,3 @@
+[submodule "Tavisca.WeatherApp/src/SubModules"]
+	path = Tavisca.WeatherApp/src/SubModules
+	url = git@github.com:TaviscaSolutions/platform-common.git

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SubModules\Tavisca.Common.Plugins.Configuration\Tavisca.Common.Plugins.Configuration.Core.csproj" />
+    <ProjectReference Include="..\SubModules\Tavisca.Common.Plugins.Redis\Tavisca.Common.Plugins.Redis.Core.csproj" />
+    <ProjectReference Include="..\SubModules\Tavisca.Platform.Common.Models\Tavisca.Platform.Common.Models.Core.csproj" />
+    <ProjectReference Include="..\SubModules\Tavisca.Platform.Common.Plugins.Json\Tavisca.Platform.Common.Plugins.Json.Core.csproj" />
+    <ProjectReference Include="..\SubModules\Tavisca.Platform.Common\Tavisca.Platform.Common.Core.csproj" />
+  </ItemGroup>
+
+</Project>
